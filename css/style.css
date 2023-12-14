@@ -1,0 +1,84 @@
+*{
+    font-family: 'Signika', sans-serif;
+}
+
+header .search-field,
+input,
+header .btn{
+    border: none;
+}
+
+/* #HEADER */
+
+header h3, input{
+    font-size: 1rem;
+}
+
+header .btn{
+    background: #91C788; 
+    --bs-btn-hover-bg: #81b378;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.3rem 3rem;
+}
+
+header .search-field{
+    display: flex;
+    align-items: center;
+    color: #666; 
+    background: #F8F8F8;
+    height: 3.5rem;
+    padding-left: 1.5rem;
+}
+
+header input{
+    background: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+/* MAIN */
+
+main article{
+    min-height: 13rem;
+}
+
+main .fruit{
+    background: #FFF8EE; 
+    text-align: center;
+}
+
+main .fruit,
+main .container{
+    height: 100%;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+main .nutritions{
+    list-style: none;
+    padding: 0rem;
+    color: #FF8473;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+main .fruit-family{
+    color: #bb5b4f;
+}
+
+main span{
+    font-size: 1.2rem;
+}
+
+main .not-found p{
+    color: #A9A9A9; 
+}
+
+main .not-found h3{
+    color: #696969; 
+}
